@@ -1,0 +1,32 @@
+.nav {
+  width: 15%;
+  min-width: 140px;
+  padding-top: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  color: #e81313;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+:root {
+  --primary-color: #007bff; 
+}
+
+a, a:visited {
+  color: var(--primary-color);        
+  text-decoration: none;              
+}
+
+a:hover {
+  color: var(--primary-color);        
+  text-decoration: underline;         
+}
+
+a:focus {
+  color: var(--primary-color);        
+  text-decoration: underline;         
+}
